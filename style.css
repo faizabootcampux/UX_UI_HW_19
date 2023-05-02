@@ -85,7 +85,7 @@ h1 {
   
   .link {
     text-decoration: none;
-    color: #000;
+    color: #2C2C2C;
   }
   
   .cursor {
@@ -98,11 +98,11 @@ h1 {
   }
   
   .outer {
-    border: 1px solid #000;
+    border: 1px solid #2C2C2C;
   }
   
   .inner {
-    background: #000;
+    background: #2C2C2C;
     transition: 250ms ease-out;
   }
   
