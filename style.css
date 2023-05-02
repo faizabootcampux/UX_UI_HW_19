@@ -1,9 +1,17 @@
 h1 {
-    font-family: "italiana", serif;
+    font-family: 'Italiana', serif;
+    font-size: 60px;
   }
-  p, li {
-    font-family: "Montserrat", sans-serif;
+  
+  p {
+    font-family: 'Montserrat', sans-serif;
+  
   }
+
+  li {
+    font-family: 'Montserrat', sans-serif;
+  }
+
   nav {
       padding: 10px;
     }
@@ -49,4 +57,61 @@ h1 {
       object-fit: cover;
       margin-bottom: 1em;
   }
+ 
+  *, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
   
+  body {
+    height: 100vh;
+    width: 100%;
+    cursor: none;
+  }
+  
+  .list {
+    display: flex;
+    list-style: none;
+  }
+  
+  .item {
+    margin: 0 1em;
+  }
+  
+  a {
+    cursor: none;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .cursor {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
+  
+  .outer {
+    border: 1px solid #000;
+  }
+  
+  .inner {
+    background: #000;
+    transition: 250ms ease-out;
+  }
+  
+  .cursor.hover {
+    transform: translate(-50%, -50%) scale(4);
+    transition: transform 250ms ease-in-out;
+  }
+  
+  .inner.hover {
+    background: #f7f7f7;
+    mix-blend-mode: difference;
+  }
