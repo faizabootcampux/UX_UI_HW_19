@@ -48,15 +48,15 @@ h1 {
   .projects {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-evenly;
+      justify-content: space-between;
   }
   
   .project img {
       display: flex;
       width: 500px;
       object-fit: cover;
-      margin-bottom: 1em;
       transition: transform 0.3s ease-in-out;
+      padding-bottom: 150px;
   }
 
   .project img:hover {
@@ -142,3 +142,16 @@ h1 {
         background-position: 0% 50%;
     }
 }  
+
+body {
+  margin-top: -3%;
+  padding: 50px;
+}
+
+section{
+  padding: 80px;
+}
+
+footer{
+padding-bottom: 50px;
+}
