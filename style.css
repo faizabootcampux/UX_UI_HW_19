@@ -3,86 +3,88 @@ h1 {
     font-size: 60px;
   }
   
-  p {
-    font-family: 'Montserrat', sans-serif;
-  
+p {
+  font-family: 'Montserrat', sans-serif;
   }
 
-  li {
-    font-family: 'Montserrat', sans-serif;
+li {
+  font-family: 'Montserrat', sans-serif;
   }
 
-  nav {
-      padding: 10px;
-    }
-  ul {
-      margin-left: auto;   
-  }
-  
-  header img {
-    width: 60px;
-    }
-  body {
-    background-color: #FAF7EF;
-    background-image: url(backgroundgradient.png);
-    background-size: cover;
-  }
-    nav,
-  footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  nav ul,
-  footer ul{
-    display: flex;
-    gap: 10px;
-  }
-  
-  nav li,
-  footer li{
-    list-style: none;
-  }
-  
-  .projects {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-  }
-  
-  .project img {
-      display: flex;
-      width: 500px;
-      object-fit: cover;
-      transition: transform 0.3s ease-in-out;
-      padding-bottom: 150px;
+nav {
+  padding: 10px;
   }
 
-  .project img:hover {
-    transform: scale(1.2);
+ul {
+  margin-left: auto;   
+  }
+  
+header img {
+  width: 60px;
+}
+
+body {
+  background-color: #FAF7EF;
+  background-image: url(backgroundgradient.png);
+  background-size: cover;
+  }
+
+nav,
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+nav ul,
+footer ul{
+  display: flex;
+  gap: 10px;
+  }
+  
+nav li,
+footer li{
+  list-style: none;
+  }
+  
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+  
+.project img {
+  display: flex;
+  width: 500px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  padding-bottom: 150px;
+  }
+
+.project img:hover {
+  transform: scale(1.2);
 }
  
-  *, *::before, *::after {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   }
   
-  body {
-    height: 100vh;
-    width: 100%;
-    cursor: none;
+body {
+  height: 100vh;
+  width: 100%;
+  cursor: none;
   }
 
-  li:hover {
-    color: pink;
+li:hover {
+  color: pink;
   }
   
-  body {
-    background: linear-gradient(to right, #FDEAEC, #FAF7EF, #EEF2F4, #FAF7EF);
-    background-size: 400% 100%;
-    animation: gradient 15s ease-in-out infinite;
+body {
+  background: linear-gradient(to right, #FAF7EF, #FCF1B9, #EEF2F4, #FDEAEC,);
+  background-size: 400% 100%;
+  animation: gradient 15s ease-in-out infinite;
 }
 
 @keyframes gradient {
